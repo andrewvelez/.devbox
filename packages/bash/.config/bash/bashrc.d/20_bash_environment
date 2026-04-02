@@ -24,6 +24,7 @@ export RUSTUP_INIT_SKIP_PATH_CHECK="yes"
 export RAD_HOME="$HOME/.radicle"
 export FILEN_CLI_DATA_DIR="$XDG_CONFIG_HOME/filen-cli"
 export DELTA_FEATURES="diff-so-fancy"
+export STOW_DIR="$HOME/.local/stow"
 
 add-path-dir "PATH" "$HOME/.local/bin"
 add-path-dir "PATH" "$DOTNET_ROOT"
